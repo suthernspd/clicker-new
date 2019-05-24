@@ -1,0 +1,72 @@
+.wood-button {
+    background: $wood;
+    border: .6rem solid darken($wood, 20%);
+    color: white;
+    font-size: $m-size;
+    margin-bottom: $m-size;
+    padding: 1.8rem;
+    width: 100%;
+}
+.gold-button {
+    background: $gold;
+    border: .6rem solid darken($gold, 20%);
+    color: white;
+    font-size: $m-size;
+    margin-bottom: $m-size;
+    padding: 1.8rem;
+    width: 100%;
+}
+.food-button {
+    background: $food;
+    border: .6rem solid darken($food, 20%);
+    color: white;
+    font-size: $m-size;
+    margin-bottom: $m-size;
+    padding: 1.8rem;
+    width: 100%;
+}
+
+.big-button {
+    background: $purple;
+    border: .6rem solid darken($purple, 20%);
+    color: white;
+    font-size: $m-size;
+    margin-bottom: $m-size;
+    padding: 1.8rem;
+    width: 100%;
+}
+
+.click-buttons {
+    display: flex;
+    margin-bottom: $m-size;
+    padding: 1.8rem;
+    width: 100%;
+}
+
+.big-button:disabled {
+    opacity:.5;
+}
+
+// button
+.button {
+    background: $purple;
+    border: .3rem solid darken($purple, 10%);
+    color: white;
+    font-weight: 500;
+    padding: $s-size;
+    margin: $s-size;
+    width: 40%;
+}
+
+.button--link {
+    background: none;
+    border: none;
+    color: $off-white;
+    padding: 0;
+}
+
+@media (min-width: $desktop-breakpoint) {
+    .big-button {
+        margin-bottom: $xl-size;
+    }
+}
